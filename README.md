@@ -57,6 +57,14 @@ solana --version
 
 If that works, proceed with building your Solana program using cargo build-sbf. This ensures compatibility with the Solana toolchain.
 
+Create and Initialize the Project:
+
+cargo new --lib MasterWalletNFT
+
+Move into the Project Directory:
+
+cd MasterWalletNFT
+
 Set up the Solana environment: Make sure your Solana CLI is connected to the correct network:
 
 solana config set --url https://api.mainnet-beta.solana.com
